@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=roboto');
+
+body {
+    background: linear-gradient(170deg, #9552C3 0%, #121212 100%);
+}
+
+
+.navbar-main img{
+    width: 70px;
+
+
+}
+
+.nav-link  {
+    color: rgb(187, 180, 180);
+    font-size: 20px;
+    margin-left: 1em;
+
+   
+}
+
+
+
+.navbar-nav .nav-link.active {
+    color: rgb(136, 94, 175);
+}
+
+.navbar-toggler {
+    color: rgb(145, 142, 148);
+    background-color: blueviolet;
+}
+
+.card-body {
+    padding: 0;
+    margin: 0.3em;
+    background-color: #121212;
+    color: #121212;
+    
+}
+
+.container-fluid {
+    margin: 0 auto !important;
+}
+
+.footer-text {
+    color: rgb(136, 94, 175);
+    font-size: 20px;
+    margin-left: 1em;
+}
+
+.nav-item-anim {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+
+}
+
+.carousel slide {
+    background: linear-gradient(170deg, #9552C3 0%, #121212 100%); 
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
+
+
+
+
